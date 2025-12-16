@@ -5,3 +5,7 @@ export default defineConfig({
 // root можно не указывать, по умолчанию '.'
 base: '/Podgotovka_OGE/', // ВАЖНО: имя репозитория c учётом регистра
 });
+export default defineConfig({
+  plugins: [react()],
+  base: "/Podgotovka_OGE/",
+})
